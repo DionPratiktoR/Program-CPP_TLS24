@@ -55,8 +55,8 @@ string decimalToHex(int decimal) {
 int subtractUsingTwosComplement(string binaryA, string binaryB) {
     cout << "Step-by-step process of 2's complement subtraction:" << endl;
     cout << "1. Convert the numbers to binary:" << endl;
-    cout << "   " << binaryA << " (input)" << endl;
-    cout << "   " << binaryB << " (input)" << endl;
+    cout << "   " << binaryA << " (1st input)" << endl;
+    cout << "   " << binaryB << " (2nd input)" << endl;
 
     cout << "2. Find the 2's complement of the subtrahend (" << binaryB << "):" << endl; //subtrahend is the number that is being subtracted
     int decimalB = binaryToDecimal(binaryB);
